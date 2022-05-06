@@ -1,0 +1,14 @@
+body{
+    background-color: #333333;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.toolbar{
+    background-color: #212121;
+    color: #ffffff;
+}

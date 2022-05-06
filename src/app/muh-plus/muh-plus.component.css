@@ -1,0 +1,24 @@
+a{
+    color: #ffffff;
+}
+.example-container {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: #212121;
+    overflow-x: hidden;
+    padding-top: 0px;
+}
+table {
+    margin-left: 210px;
+    width: 400px;
+}
+.tableEven{
+    background-color: #444444;
+}.tableOdd{
+    background-color: #333333;
+}
+  
