@@ -22,6 +22,7 @@ import { SDComponent } from './muh-plus/sd/sd.component';
 import { SOAComponent } from './muh-plus/soa/soa.component';
 import { StreetsComponent } from './muh-plus/streets/streets.component';
 import { TOPComponent } from './muh-plus/top/top.component';
+import { GeneralComponent } from './muh-plus/general/general.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { TOPComponent } from './muh-plus/top/top.component';
     SOAComponent,
     StreetsComponent,
     TOPComponent,
+    GeneralComponent,
   ],
   imports: [
     BrowserModule,

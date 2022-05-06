@@ -11,4 +11,6 @@ a{
 .toolbar{
     background-color: #212121;
     color: #ffffff;
+    position:fixed;
+    z-index: 100;
 }

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DOSComponent } from './muh-plus/dos/dos.component';
 import { GambitComponent } from './muh-plus/gambit/gambit.component';
+import { GeneralComponent } from './muh-plus/general/general.component';
 import { HOAComponent } from './muh-plus/hoa/hoa.component';
 import { MOTSComponent } from './muh-plus/mots/mots.component';
 import { MuhPlusComponent } from './muh-plus/muh-plus.component';
@@ -16,6 +17,7 @@ import { TOPComponent } from './muh-plus/top/top.component';
 const routes: Routes = [
   { path: 'muh-plus', component: MuhPlusComponent, children: [
       { path: 'muhplus-sidebar', component: MuhplusSidebarComponent },
+      { path: 'General', component: GeneralComponent },
       { path: 'DOS', component: DOSComponent },
       { path: 'HOA', component: HOAComponent },
       { path: 'MOTS', component: MOTSComponent },
